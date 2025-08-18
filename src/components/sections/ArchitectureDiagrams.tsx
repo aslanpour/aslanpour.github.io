@@ -1,4 +1,3 @@
-import { useState } from 'react';
 import { motion } from 'framer-motion';
 import { architectureDiagrams } from '@/data/diagrams';
 import { Button } from '@/components/ui/button';
