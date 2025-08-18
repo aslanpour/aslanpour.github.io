@@ -16,8 +16,6 @@ import {
 import { X } from 'lucide-react';
 
 export function ArchitectureDiagrams() {
-  const [selectedDiagram, setSelectedDiagram] = useState<number | null>(null);
-
   const containerVariants = {
     hidden: { opacity: 0 },
     visible: {
@@ -88,7 +86,6 @@ export function ArchitectureDiagrams() {
                     <Button 
                       variant="ghost" 
                       className="absolute inset-0 w-full h-full opacity-0"
-                      onClick={() => setSelectedDiagram(diagram.id)}
                     >
                       View Diagram
                     </Button>
