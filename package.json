@@ -9,7 +9,7 @@
     "build:github": "tsc -b && vite build --base=/aslanpour.github.io/",
     "lint": "eslint .",
     "preview": "vite preview",
-    "predeploy": "npm run build:github",
+    "predeploy": "npm run build",
     "deploy": "gh-pages -d dist"
   },
   "dependencies": {
