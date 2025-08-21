@@ -1,6 +1,7 @@
 
 # Workflow
 1. FeatureScout: An agent that daily at a specific time, runs via a GitHub action job. This job runs (the start time must be made adjustable easily, not hardcoded)
+    a. prompt `Use the feature-scout agent with this task: identify a new feature for my React GitHub Pages site`
     a. `on: schedule`
     a. Checkout code
     - Install Claude Code `curl -fsSL claude.ai/install.sh | bash`
